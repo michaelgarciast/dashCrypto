@@ -1,38 +1,56 @@
-# sv
+# DashCrypto
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+DashCrypto es una aplicación interactiva para el seguimiento y análisis de criptomonedas en tiempo real. Proporciona gráficos, estadísticas y herramientas útiles para los entusiastas de las criptomonedas.
 
-## Creating a project
+## Características
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Seguimiento en tiempo real de precios de criptomonedas.
+- Gráficos interactivos para análisis de tendencias.
+- Información detallada sobre las principales criptomonedas.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Instalación
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Clona este repositorio e instala las dependencias necesarias:
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+git clone https://github.com/tu-usuario/dashCrypto.git
+cd dashCrypto
+pnpm install
 ```
 
-## Building
+## Desarrollo
 
-To create a production version of your app:
+Para iniciar el servidor de desarrollo:
 
 ```bash
-npm run build
+pnpm run dev
+
+# o inicia el servidor y abre la aplicación en una nueva pestaña del navegador
+pnpm run dev -- --open
 ```
 
-You can preview the production build with `npm run preview`.
+## Construcción
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Para crear una versión de producción de la aplicación:
+
+```bash
+pnpm run build
+```
+
+Puedes previsualizar la versión de producción con:
+
+```bash
+pnpm run preview
+```
+
+## Despliegue
+
+Para desplegar tu aplicación, asegúrate de instalar un [adaptador](https://svelte.dev/docs/kit/adapters) adecuado para tu entorno de destino.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si tienes ideas o encuentras problemas, no dudes en abrir un issue o enviar un pull request.
+
+## Licencia
+
+Este proyecto está bajo la licencia [MIT](LICENSE).
